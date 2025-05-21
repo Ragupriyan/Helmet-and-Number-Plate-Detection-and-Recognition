@@ -14,7 +14,6 @@ st.set_page_config(
         }
     )
 
-# Streamlit UI
 st.title("Helmet Detection Stream")
 
 video_source = st.selectbox("Select video source", ["Webcam", "sample.mp4"])
