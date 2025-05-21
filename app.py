@@ -8,13 +8,13 @@ from sort import *
 st.set_page_config(
         page_title="Helmet detection",
         page_icon="🤖",
+        layout="wide",
         menu_items={
             'About': "Helmet detection project."
         }
     )
 
 # Streamlit UI
-st.set_page_config(layout="wide")
 st.title("Helmet Detection Stream")
 
 video_source = st.selectbox("Select video source", ["Webcam", "sample.mp4"])
