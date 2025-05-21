@@ -6,7 +6,7 @@ Python vsersion = 3.11
 [Python 3.11.0 download](https://www.python.org/downloads/release/python-3110/)
 Download VSCode
 
-## Open CMD
+## Open CMD in path to clone
 
 Clone repository
 
@@ -14,12 +14,14 @@ Clone repository
 
 `cd Helmet-and-Number-Plate-Detection-and-Recognition`
 
+Open in VSCode
 `code .`
 
 ## Open terminal
 
 Verify python version
 `python --version`
+it should be 3.11
 
 `python -m venv .venv`
 
