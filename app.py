@@ -16,7 +16,7 @@ st.set_page_config(
 
 st.title("Helmet Detection Stream")
 
-video_source = st.selectbox("Select video source", ["Webcam", "sample.mp4"])
+video_source = st.selectbox("Select video source", ["sample.mp4"])
 
 run_btn = st.button("Start Detection")
 
